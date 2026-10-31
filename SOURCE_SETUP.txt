@@ -1,0 +1,16 @@
+Vinay Kumar Dokku — Angular portfolio source
+
+Based on Jayant Goel's MIT-licensed Angular project. Original LICENSE retained.
+
+This source is customized for VinaykumarDokku/vinay-portfolio.
+The Angular 19 build package is aligned with Angular 19. AJV dependencies are declared.
+The package-lock.json is intentionally omitted because it must be regenerated after dependency changes.
+
+To install and test locally:
+  npm install --legacy-peer-deps
+  npx ng build --configuration production --base-href /vinay-portfolio/
+
+The GitHub Actions workflow uses npm install --legacy-peer-deps.
+The build has NOT been verified successfully in this environment; additional compatibility fixes may be needed.
+
+To deploy: commit project files to main and select GitHub Actions under repository Settings > Pages.
