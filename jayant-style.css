@@ -1,0 +1,43 @@
+/* Jayant reference-aligned visual refresh: dark gunmetal, orange, graphic headline, light content */
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@400;500;600;700;800&display=swap');
+:root{--bg:#242a35;--bg2:#242a35;--orange:#ffad32;--text:#fff;--muted:#b4b6bb;--line:#414954}
+body{font-family:Poppins,Arial,sans-serif;background:#f6f7f8}
+.nav{height:72px;background:#242a35f7;border-bottom:3px solid #ffad32;padding-left:5%;padding-right:5%}
+.brand{font-family:'Black Ops One',Impact,sans-serif;font-size:23px;letter-spacing:.5px}
+.brand-mark{border:0;padding:0;margin-right:5px;font-size:23px}
+nav a{font-weight:600;color:#f3f3f3;font-size:13px}
+nav a:hover{color:#ffad32}
+.hero{background:linear-gradient(110deg,#242a35ed,#242a35d9),radial-gradient(ellipse at 65% 45%,#647181,#1d232d);min-height:100vh}
+.hero:before{content:'';position:absolute;inset:0;background-image:linear-gradient(#ffffff09 1px,transparent 1px),linear-gradient(90deg,#ffffff09 1px,transparent 1px);background-size:58px 58px;mask-image:linear-gradient(90deg,transparent,#000);pointer-events:none}
+.hero-inner{grid-template-columns:1.15fr .85fr;max-width:1260px}
+h1,h2,h3,h4,.role{font-family:Poppins,Arial,sans-serif}
+h1{font-family:'Black Ops One',Impact,sans-serif;font-size:clamp(42px,5.2vw,78px);font-weight:400;letter-spacing:0;line-height:1.2;text-transform:uppercase}
+.hero .eyebrow{font-size:14px;letter-spacing:1.5px;color:#ffbd54}
+.role{font-size:24px}
+.hero-copy>p{color:#e0e2e5}
+.btn{border-radius:6px;padding:14px 24px;box-shadow:0 4px 10px #0002}
+.primary{background:#ffad32;color:#242a35}
+.secondary{color:#ffbd54}
+.hero-art .portrait{border-radius:20px;width:min(340px,80%);transform:rotate(-2deg);box-shadow:16px 16px 0 #ffad32}
+.hero-art .portrait img{border-radius:12px}
+.orbit{border-style:dotted}
+.section{padding-top:95px;padding-bottom:100px}
+.section-heading{text-align:center}
+.section-heading h2{font-family:'Black Ops One',Impact,sans-serif;text-transform:uppercase;font-weight:400;font-size:clamp(32px,4vw,52px);letter-spacing:0}
+.section-heading h2 em{color:#ee9c18!important}
+.section-heading:after{content:'';display:block;width:86px;height:5px;background:#ffad32;margin:20px auto 0;border-radius:5px}
+.about,.experience,.portfolio{background:#f7f7f7;color:#242a35}
+.skills,.education{background:#242a35;color:#fff}
+.about-panel{background:#242a35;border-left:7px solid #ffad32}
+.skill-grid article{background:#303846;border:1px solid #4d5664;border-radius:8px}
+.skill-grid article:hover{box-shadow:0 14px 30px #0003}
+.job-content{border-radius:8px;border-top:5px solid #ffad32}
+.education-grid article{border-radius:9px}
+.project{border-radius:9px}
+.project img{height:210px}
+.project:hover{box-shadow:0 15px 30px #0002}
+.quote{background:#242a35}
+.contact{background:#242a35}
+.contact-links a{border-radius:6px}
+footer{background:#1a1f28}
+@media(max-width:950px){.hero-inner{grid-template-columns:1fr}}
