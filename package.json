@@ -44,7 +44,7 @@
     "@angular/compiler-cli": "^19.2.10",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
-    "ajv": "^8.20.0",
+    "ajv": "^8.17.1",
     "ajv-keywords": "^5.1.0",
     "angular-cli-ghpages": "^1.0.7",
     "jasmine-core": "~3.7.0",
