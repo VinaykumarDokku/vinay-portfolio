@@ -1,0 +1,9 @@
+This is the ORIGINAL Angular source structure and styling from JayantGoel001.github.io, customized for Vinay.
+
+1. Extract ZIP and upload ALL contents to github.com/VinaykumarDokku/vinay-portfolio (replace existing files).
+2. Settings > Pages > Build and deployment > Source: GitHub Actions (NOT Deploy from a branch).
+3. Actions > Deploy Angular portfolio to GitHub Pages > check green success.
+4. Visit https://vinaykumardokku.github.io/vinay-portfolio/
+
+README.md retained from user. Original MIT LICENSE retained.
+Note: This ZIP is Angular source code, NOT a directly publishable static HTML site.
