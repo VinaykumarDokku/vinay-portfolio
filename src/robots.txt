@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: http://jayantgoel001.github.io/sitemap_index.xml
+Sitemap: https://vinaykumardokku.github.io/vinay-portfolio/sitemap_index.xml

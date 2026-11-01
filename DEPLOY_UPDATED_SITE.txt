@@ -1,0 +1,8 @@
+Vinay portfolio update: Home without photo; About with personal introduction; Skills orange bars; Education timeline; Experience cards; footer social icons.
+
+1. Extract ZIP into your existing vinay-portfolio folder (replace files, keep .git).
+2. cd ~/Downloads/vinay-portfolio
+3. npm install --legacy-peer-deps
+4. npm run build -- --configuration production --base-href /vinay-portfolio/
+5. git add . && git commit -m "Update portfolio sections and experience" && git push origin main
+6. GitHub Settings > Pages > Source: GitHub Actions; check Actions workflow.
